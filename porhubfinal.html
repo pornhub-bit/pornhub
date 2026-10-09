@@ -250,9 +250,9 @@
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, padding: "20px 20px 16px" }}>
                 <div style={{ gridColumn: "1 / -1", fontSize: 22, fontWeight: 700, color: "#1a2636", paddingBottom: 16 }}>{adminData.fullName}</div>
                 {[
-                  { label: "Permit number", val: adminData.permitNum },
+                  { label: "License number", val: adminData.permitNum },
                   { label: "Expiry", val: adminData.expiry },
-                  { label: "Permit type", val: "Car", badge: true },
+                  { label: "License type", val: "Car", badge: true },
                   { label: "Date of birth", val: adminData.dob }
                 ].map((f, i) => (
                   <div key={i}>
