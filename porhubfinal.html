@@ -9,7 +9,21 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <style>*{box-sizing:border-box;margin:0;padding:0;}body{font-family:-apple-system,'SF Pro Display','Helvetica Neue',sans-serif;-webkit-tap-highlight-color:transparent;}</style>
   <link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
-<link rel="icon" type="image/png" href="./icon.png">
+<link rel="icon" type="image/png" href="./icon.png"> <meta charset="UTF-8">
+
+    <!-- Prevent zooming on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <style>
+        html, body {
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            touch-action: manipulation;
+        }
+    </style>
 </head>
 <body>
   <div id="root"></div>
